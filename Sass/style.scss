@@ -1,0 +1,24 @@
+//variables
+$color-principal: #ccc;
+$color-letra: green;
+
+
+body{
+    background: $color-principal;
+}
+
+h1{
+    color: $color-letra;
+}
+
+//Anidación
+.caja{
+    h2{
+        color: black;
+    }
+
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline;
+    }
+}

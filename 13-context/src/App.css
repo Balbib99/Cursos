@@ -1,0 +1,63 @@
+*{
+  margin: 0px;
+}
+
+body{
+  background-color: #eee;
+}
+
+.header nav{
+  background-color: black;
+  height: 80px;
+
+  color: white;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.header ul{
+  flex-basis: 75%;
+  display: flex;
+  justify-content: flex-end;
+
+  list-style: none;
+
+}
+
+.header nav a{
+  color: white;
+  text-decoration: none;
+
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.header nav a:hover{
+  color: lightblue;
+}
+
+.content{
+  width: 70%;
+  min-height: 350px;
+  background: white;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+
+  margin: 25px auto;
+  padding: 25px;
+}
+
+
+/* Login */
+
+.login input {
+  display: block;
+  margin: 15px;
+  padding: 15px;
+  
+}

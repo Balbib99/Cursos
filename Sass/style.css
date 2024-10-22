@@ -1,0 +1,17 @@
+body {
+  background: #ccc;
+}
+
+h1 {
+  color: green;
+}
+
+.caja h2 {
+  color: black;
+}
+.caja p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
